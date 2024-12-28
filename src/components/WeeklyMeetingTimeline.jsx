@@ -629,15 +629,6 @@ const WeeklyMeetingTimeline = () => {
                   "同学友谊长存"
                 ],
                 icon: "❤️"
-              },
-              {
-                title: "研究目标",
-                items: [
-                  "完善分组和聚合方案",
-                  "提出创新的解决方案",
-                  "实现方案的工程落地"
-                ],
-                icon: "🎯"
               }
             ].map((goal, index) => (
               <div key={index} className="bg-blue-50 rounded-lg p-4">
