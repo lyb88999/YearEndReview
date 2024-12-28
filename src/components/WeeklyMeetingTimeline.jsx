@@ -400,10 +400,14 @@ const WeeklyMeetingTimeline = () => {
 
   // 添加统计函数
   const getStatistics = (meetings, missingWeeks) => {
+    const personalAbsences = missingWeeks.filter(m => m.type === 'personal');
+    const holidays = missingWeeks.filter(m => m.type === 'holiday');
+    
     return {
-      totalMeetings: meetings.length,
-      totalAbsence: missingWeeks.filter(m => m.type === 'personal').length,
-      totalHolidays: missingWeeks.filter(m => m.type === 'holiday').length,
+      // 总组会次数 = 参加的会议 + 请假的会议（不包括节假日）
+      totalMeetings: meetings.length + personalAbsences.length,
+      totalAbsence: personalAbsences.length,
+      totalHolidays: holidays.length,
       monthsWithFullAttendance: Array(10).fill(0)
         .map((_, i) => i + 3)
         .filter(month => {
