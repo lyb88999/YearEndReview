@@ -77,6 +77,15 @@ const WeeklyMeetingTimeline = () => {
       }
     },
     { 
+      week: '5月第1周', 
+      status: true, 
+      date: '5/6',
+      content: {
+        topics: ['听研三学长学姐作预答辩'],
+        papers: ['']
+      }
+    },
+    { 
       week: '5月第2周', 
       status: true, 
       date: '5/13',
@@ -343,7 +352,6 @@ const WeeklyMeetingTimeline = () => {
   // 添加未开会的周次
   const missingWeeks = [
     { week: '4月第4周', status: false, reason: '因有课请假', type: 'personal' },
-    { week: '5月第1周', status: false, reason: '五一放假', type: 'holiday' },
     { week: '6月第4周', status: false, reason: '因吹空调感冒请假', type: 'personal' },
     { week: '7月第3-4周', status: false, reason: '放暑假', type: 'holiday' },
     { week: '9月第3周', status: false, reason: '中秋节放假', type: 'holiday' },
