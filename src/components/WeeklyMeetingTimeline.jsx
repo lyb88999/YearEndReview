@@ -488,7 +488,7 @@ const WeeklyMeetingTimeline = () => {
 
       <Card>
         <CardHeader>
-          <CardTitle>2023年组会年终统计</CardTitle>
+          <CardTitle>2024年组会年终统计</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="grid grid-cols-2 md:grid-cols-2 gap-4">
@@ -514,7 +514,7 @@ const WeeklyMeetingTimeline = () => {
 
       <Card>
         <CardHeader>
-          <CardTitle>2023年组会开展情况</CardTitle>
+          <CardTitle>2024年组会开展情况</CardTitle>
         </CardHeader>
         <CardContent>
           <div className="space-y-4">
@@ -592,11 +592,11 @@ const WeeklyMeetingTimeline = () => {
 
       <Card>
         <CardHeader>
-          <CardTitle>2023年度总结语</CardTitle>
+          <CardTitle>2024年度总结语</CardTitle>
         </CardHeader>
         <CardContent>
           <p className="text-gray-700 leading-relaxed">
-            2023年是研究方向逐渐明确的一年，从最初的探索到最终确定研究方向，
+            2024年是研究方向逐渐明确的一年，从最初的探索到最终确定研究方向，
             经历了理论学习、方案设计和开题准备等重要阶段。在导师和同学们的帮助下，
             顺利完成了开题答辩，为接下来的研究工作打下了坚实基础。
             正如张老师所说"本来学习就是一个探索的过程"，这一年的经历让我深刻体会到了这句话的含义。
